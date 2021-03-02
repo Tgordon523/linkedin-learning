@@ -1,0 +1,52 @@
+---
+title: "LinkedIn Examples"
+author: "Tim Gordon"
+date: "March 1, 2021"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+### Make up fake revenue data
+usa_east <- sample.int(10000, 100)
+usa_west <- sample.int(100000, 100)
+usa_south <- sample.int(15000, 100)
+usa_midwest <- sample.int(70000, 100)
+product <- rep(c("Product1", "Product2"),100)
+```
+
+```{r}
+### Initialize dataframe 
+df <- data.frame(usa_east, usa_west, usa_midwest, usa_south, product)
+```
+
+```{r}
+### Make dataframe into tidy (Wide to Long) format. Includes original column
+df_usa_longer <- df %>%
+  pivot_longer(cols=starts_with("usa"),
+               names_to=c("country", "region"), 
+               names_pattern="(usa)_(.*)", 
+               values_to="usa_revenue"
+               )
+
+df_usa_longer
+```
+
+```{r}
+### Alternative method to exclude country 
+df_rev_alt_long <- df %>%
+  pivot_longer(cols=starts_with("usa"),
+               names_to=c(".value", "region"), 
+               names_pattern="(usa)_(.*)", 
+               values_to="usa"
+               )
+
+df_rev_alt_long
+```
+

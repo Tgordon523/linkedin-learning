@@ -1,7 +1,7 @@
 # linkedin-learning
 LinkedIn weekly series for programming language techniques
 
-## Week 1
+## Week 2
 ### Summarize [Week 2 Link](https://github.com/Tgordon523/linkedin-learning/tree/main/Week2)
 
 ## Week 1

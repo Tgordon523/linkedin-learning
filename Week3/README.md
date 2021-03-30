@@ -1,9 +1,9 @@
 # LinkedIn Learning Week 2 
 
-## Summary View
+## Pandas Piping
 
-With data transformed into the right format from last week, each row represents it’s own observation now. This is the ideal format to conduct any data analysis or modeling experiments. One important use case is summarizing the data for stakeholders. 
- 
-One way to summarize the data using pandas is to utilize the pivot table function. Similar to Excel’s PivotTable, it can summarize the data in a variety of ways to draw meaning from the data. 
+It’s important to build a pipeline to standardize the workflow of a problem when applicable. The code becomes more readable as a result of the pipeline. If we have defined functions for our data, we can also pass them into the pipe functions. The functions are run in sequential order when executed. 
 
+Pandas requires the use of brackets to pipe functions together. Custom functions can be used with the pipe() function to highlight.
 
+Pipes can be a valuable tool that highlights the specific functions needed to execute a workflow and improve readability overall. 

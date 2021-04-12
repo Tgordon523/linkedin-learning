@@ -1,6 +1,9 @@
 # linkedin-learning
 LinkedIn weekly series for programming language techniques
 
+## Week 5
+### Date Formatting [Week 5 Link](https://github.com/Tgordon523/linkedin-learning/tree/main/Week5)
+
 ## Week 4
 ### Styling [Week 4 Link](https://github.com/Tgordon523/linkedin-learning/tree/main/Week4)
 

@@ -1,6 +1,9 @@
 # linkedin-learning
 LinkedIn weekly series for programming language techniques
 
+## Week 7
+### [Date Subsetting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week7)
+
 ## Week 6
 ### [Date Formatting Part 2](https://github.com/Tgordon523/linkedin-learning/tree/main/Week6)
 

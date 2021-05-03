@@ -2,6 +2,9 @@
 LinkedIn weekly series for programming language techniques
 
 ## Week 7
+### [Date Resampling](https://github.com/Tgordon523/linkedin-learning/tree/main/Week8)
+
+## Week 7
 ### [Date Subsetting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week7)
 
 ## Week 6

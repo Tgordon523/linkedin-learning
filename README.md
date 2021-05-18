@@ -2,6 +2,9 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 10
+### [Date from Text](https://github.com/Tgordon523/linkedin-learning/tree/main/Week10)
+
 ## Week 9
 ### [Date Shift/Lag](https://github.com/Tgordon523/linkedin-learning/tree/main/Week9)
 

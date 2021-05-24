@@ -2,6 +2,9 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 11
+### [Extract Multiple Text Fields](https://github.com/Tgordon523/linkedin-learning/tree/main/Week11)
+
 ## Week 10
 ### [Date from Text](https://github.com/Tgordon523/linkedin-learning/tree/main/Week10)
 

@@ -1,6 +1,6 @@
 # LinkedIn Learning Week 11
 
-## String Extraction 
+## Extract Multiple Text Fields
 
 Often, the data we want to use as a feature or analysis can be trapped in a text field.  
 

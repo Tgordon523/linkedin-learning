@@ -2,6 +2,10 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 12
+### [Extract from Unstructured Data](https://github.com/Tgordon523/linkedin-learning/tree/main/Week12)
+
+----------------------------------------------------------------
 ## Week 11
 ### [Extract Multiple Text Fields](https://github.com/Tgordon523/linkedin-learning/tree/main/Week11)
 

@@ -8,4 +8,4 @@ Type checking can be used to validate existing type hinted variables, functions,
 
 Type hinting assists with documenting and cleaning up existing code. Type checking expands on the existing type annotations which allows for validation of the inputs and outputs of a script.
 
-![Notable Plot] (https://github.com/Tgordon523/linkedin-learning/tree/main/Week14/wk14_type_checking.png)
+![Notable Plot](https://github.com/Tgordon523/linkedin-learning/tree/main/Week14/wk14_type_checking.png)

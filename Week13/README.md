@@ -8,3 +8,4 @@ Type Annotation can be implemented easily in Python during function declaration.
 
 Type annotation is applicable and useful in all circumstances for a dynamically typed language like Python. They help catch errors, implements more structure to the codebase, and improves readability with clear documentation.
 
+![Notable Plot] (https://github.com/Tgordon523/linkedin-learning/tree/main/Week13/wk13_type_hinting.png)

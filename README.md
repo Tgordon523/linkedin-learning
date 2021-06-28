@@ -2,6 +2,17 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 15
+### [Extract from Unstructured Data Pt 2](https://github.com/Tgordon523/linkedin-learning/tree/main/Week15)
+
+----------------------------------------------------------------
+## Week 14
+### [Type Checking](https://github.com/Tgordon523/linkedin-learning/tree/main/Week14)
+----------------------------------------------------------------
+## Week 13
+### [Type Hinting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week13)
+
+----------------------------------------------------------------
 ## Week 12
 ### [Extract from Unstructured Data](https://github.com/Tgordon523/linkedin-learning/tree/main/Week12)
 

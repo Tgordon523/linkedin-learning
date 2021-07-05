@@ -1,9 +1,9 @@
-# LinkedIn Learning Week 15
+# LinkedIn Learning Week 16
 
-## Extract Unstructured Text Part 2
+## Extract Unstructured Text Part 3
 
 Often, the data we want to use as a feature or analysis can be trapped in a text field.  
 
-If the specific text blurb is consistent, one way to extract it is using  <code> extract </code> function for strings.
+There can be multiple groups of text that we want to capture. With a identifiable pattern, we can pass the regex to the <code>extract</code> command to group them accordingly.  
 
-In this example, we are looking for a specific currency and amount associated with it. Both are distinct from the rest of the text. Regex allows us to extract the defined pattern from the text document. 
+In this example, we are gathering emails within the text. Emails have a specific pattern which can be separated into the username, website, and domain. Regex allows us to extract the defined pattern from the text document. 

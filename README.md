@@ -2,6 +2,10 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 17
+### [Text Subsetting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week17)
+
+----------------------------------------------------------------
 ## Week 16
 ### [Extract from Unstructured Data Pt 3](https://github.com/Tgordon523/linkedin-learning/tree/main/Week16)
 

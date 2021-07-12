@@ -1,9 +1,9 @@
-# LinkedIn Learning Week 15
+# LinkedIn Learning Week 17
 
-## Extract Unstructured Text Part 2
+## Text Subsetting 
 
-Often, the data we want to use as a feature or analysis can be trapped in a text field.  
+We can further explore ideas about the data by subsetting the specific parameters.  
 
-If the specific text blurb is consistent, one way to extract it is using  <code> extract </code> function for strings.
+One way to subset a specific column is to use <code> contains </code> function for strings. We can also filter to a specific word or symbol when possible. 
 
-In this example, we are looking for a specific currency and amount associated with it. Both are distinct from the rest of the text. Regex allows us to extract the defined pattern from the text document. 
+Text subsetting is helpful to use when exploring a dataset to confirm assumptions. The last example highlights pulling out a name which may be in differnent locations within a username. 

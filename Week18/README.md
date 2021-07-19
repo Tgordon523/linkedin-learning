@@ -1,9 +1,9 @@
-# LinkedIn Learning Week 17
+# LinkedIn Learning Week 18
 
-## Text Subsetting 
+## Column Subsetting 
 
-We can further explore ideas about the data by subsetting the specific parameters.  
+Columns similar to the values can also be filtered. 
 
-One way to subset a specific column is to use <code> contains </code> function for strings. We can also filter to a specific word or symbol when possible. 
+The first example is built-in functionality with <code> loc </code> to slice the data between two columns. For more complex examples, we can create a mask to filter with string methods.
 
-Text subsetting is helpful to use when exploring a dataset to confirm assumptions. The last example highlights pulling out a name, which may be in different locations within a username.
+Column subsetting is helpful to use when trying to parse out information from data which isn't tidy. It can also be used to select corresponding feature columns.

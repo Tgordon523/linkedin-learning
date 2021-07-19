@@ -8,19 +8,22 @@ df = pd.DataFrame(
     columns=["Math_1", "Math_2", "Math_3", "EngLit_1", "EngLit_2", "EngLit_3"],
 )
 
+### Simple between filter
+print(
+    "Simple Filter everything between \n",
+    df.loc[:, "Math_3":"EngLit_2"].head(),
+)
 
-print("Simple Filter everything between \n", df.loc[:, "Math_3":"EngLit_2"].head())
-
+### Column starts with filter
 math_mask = df.columns[df.columns.str.startswith("Math")]
-print(df[math_mask])
+print(
+    "Filter to only include columns starting with Math \n",
+    df[math_mask].head(),
+)
 
+### Column name has the number 1 included.
 numeric_mask = df.columns[df.columns.str.contains("1")]
-print(df[numeric_mask])
-
-print("Subsetting the dataframe by text (a symbol)")
-# print(df_subset, "\n")
-
-
-print("Subsetting the dataframe by matching text anywhere in field")
-# df_subset2 = df_extract2[df_extract2["Username"].str.contains("gord")]
-# print(df_subset2)
+print(
+    "Filter to only include columns with numeric or specific word in title \n",
+    df[numeric_mask].head(),
+)

@@ -14,16 +14,8 @@ print(
     df.loc[:, "Math_3":"EngLit_2"].head(),
 )
 
-### Column starts with filter
-math_mask = df.columns[df.columns.str.startswith("Math")]
+### Simple filter for specific columns
 print(
-    "Filter to only include columns starting with Math \n",
-    df[math_mask].head(),
-)
-
-### Column name has the number 1 included.
-numeric_mask = df.columns[df.columns.str.contains("1")]
-print(
-    "Filter to only include columns with numeric or specific word in title \n",
-    df[numeric_mask].head(),
+    "Simple filter for multiple specific columns \n",
+    df.loc[:, ["Math_3", "EngLit_2"]].head(),
 )

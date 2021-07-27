@@ -24,6 +24,7 @@ LinkedIn weekly series for programming language techniques
 ----------------------------------------------------------------
 ## Week 14
 ### [Type Checking](https://github.com/Tgordon523/linkedin-learning/tree/main/Week14)
+
 ----------------------------------------------------------------
 ## Week 13
 ### [Type Hinting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week13)
@@ -36,32 +37,52 @@ LinkedIn weekly series for programming language techniques
 ## Week 11
 ### [Extract Multiple Text Fields](https://github.com/Tgordon523/linkedin-learning/tree/main/Week11)
 
+----------------------------------------------------------------
+
 ## Week 10
 ### [Date from Text](https://github.com/Tgordon523/linkedin-learning/tree/main/Week10)
+
+----------------------------------------------------------------
 
 ## Week 9
 ### [Date Shift/Lag](https://github.com/Tgordon523/linkedin-learning/tree/main/Week9)
 
+----------------------------------------------------------------
+
 ## Week 8
 ### [Date Resampling](https://github.com/Tgordon523/linkedin-learning/tree/main/Week8)
+
+----------------------------------------------------------------
 
 ## Week 7
 ### [Date Subsetting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week7)
 
+----------------------------------------------------------------
+
 ## Week 6
 ### [Date Formatting Part 2](https://github.com/Tgordon523/linkedin-learning/tree/main/Week6)
+
+----------------------------------------------------------------
 
 ## Week 5
 ### [Date Formatting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week5)
 
+----------------------------------------------------------------
+
 ## Week 4
 ### [Styling](https://github.com/Tgordon523/linkedin-learning/tree/main/Week4)
+
+----------------------------------------------------------------
 
 ## Week 3
 ### [Piping](https://github.com/Tgordon523/linkedin-learning/tree/main/Week3)
 
+----------------------------------------------------------------
+
 ## Week 2
 ### [Summarize](https://github.com/Tgordon523/linkedin-learning/tree/main/Week2)
+
+----------------------------------------------------------------
 
 ## Week 1
 ### [Wide to Long](https://github.com/Tgordon523/linkedin-learning/tree/main/Week1)

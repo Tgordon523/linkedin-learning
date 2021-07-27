@@ -2,6 +2,10 @@
 LinkedIn weekly series for programming language techniques
 
 ----------------------------------------------------------------
+## Week 19
+### [Column Subsetting Pt 2](https://github.com/Tgordon523/linkedin-learning/tree/main/Week19)
+
+----------------------------------------------------------------
 ## Week 18
 ### [Column Subsetting](https://github.com/Tgordon523/linkedin-learning/tree/main/Week18)
 

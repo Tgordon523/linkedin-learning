@@ -8,18 +8,6 @@ df = pd.DataFrame(
     columns=["Math_1", "Math_2", "Math_3", "EngLit_1", "EngLit_2", "EngLit_3"],
 )
 
-### Simple between filter
-print(
-    "Simple Filter everything between \n",
-    df.loc[:, "Math_3":"EngLit_2"].head(),
-)
-
-### Simple filter for specific columns
-print(
-    "Simple Filter everything between \n",
-    df.loc[:, ["Math_3", "EngLit_2"]].head(),
-)
-
 
 ### Column starts with filter
 math_mask = df.columns[df.columns.str.startswith("Math")]

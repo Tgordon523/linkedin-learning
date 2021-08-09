@@ -1,9 +1,9 @@
 # LinkedIn Learning Week 20
 
-## Column Subsetting Pt 2
+## Column Reindexing
 
-Columns similar to the values can also be filtered. 
+Reorganizing dataframes by another. 
 
-For more complex examples, we can create a mask to filter with string methods.
+One dataframe order can be updated to match another with <code> reindex_like </code>.
 
-Column subsetting is helpful to use when trying to parse out information from data which isn't tidy. It can also be used to select corresponding feature columns.
+Column reindexing based on another dataframe is helpful to organize by a template. This can be used to further effect by staking the dataframes on top of each other once properly indexed.

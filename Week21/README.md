@@ -1,9 +1,9 @@
-# LinkedIn Learning Week 20
+# LinkedIn Learning Week 21
 
-## Column Reindexing
+## Clean Column Names
 
-Reorganizing dataframes by another. 
+Apply consistent naming across columns. 
 
-One dataframe order can be updated to match another with <code> reindex_like </code>.
+I create a custom function to apply string transformations to the columns.
 
-Column reindexing based on another dataframe is helpful to organize by a template. This can be used to further effect by staking the dataframes on top of each other once properly indexed.
+Formatting and cleaning column names is important to standardize a format. Snakecase is a common and simple naming convention to follow unless the code base is already using camelcase.

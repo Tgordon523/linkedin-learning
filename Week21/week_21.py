@@ -8,18 +8,14 @@ df = pd.DataFrame(
     columns=["Math 1", "Math 2", "Math 3", "EngLit 1", "EngLit 2", "EngLit 3"],
 )
 
-print(df)
-
-[print(i) for i in df.columns]
+print(f"Original dataframe names {df.columns.values} \n")
 
 
-def clean_names(df: pd.DataFrame):
-    """ Function to clean column names similar to the clean_names function from the janitory package in R. """
+def clean_names(df: pd.DataFrame) -> pd.DataFrame:
+    """ Function to clean column names and convert it into simple snakecase format. """
     df.columns = df.columns.str.lower()
     df.columns = df.columns.str.replace(" ", "_")
     return df
 
 
-for col in df.columns:
-    for t in col:
-        print("".join(t.lower()))
+print(clean_names(df))

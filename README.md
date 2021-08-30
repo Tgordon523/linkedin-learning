@@ -1,6 +1,11 @@
 # linkedin-learning
 LinkedIn weekly series for programming language techniques
 
+
+----------------------------------------------------------------
+## Week 22
+### [String Wide to Long](https://github.com/Tgordon523/linkedin-learning/tree/main/Week22)
+
 ----------------------------------------------------------------
 ## Week 21
 ### [Column Cleaning](https://github.com/Tgordon523/linkedin-learning/tree/main/Week21)

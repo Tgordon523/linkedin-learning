@@ -29,5 +29,3 @@ df1["id"] = df1.index
 
 df2 = pd.wide_to_long(df1, stubnames=["math", "englit"], sep="_", i=["id"], j="year")
 print(df2)
-
-# print(df1.unstack(-1).reset_index())

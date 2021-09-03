@@ -1,7 +1,7 @@
 from numpy.core.fromnumeric import size
 import pandas as pd
 import numpy as np
-
+from sklearn.preprocessing import OneHotEncoder
 
 ### Create dataset
 df = pd.DataFrame(
@@ -27,5 +27,10 @@ df1 = clean_names(df)
 df1["id"] = df1.index
 # print(df1)
 
-df2 = pd.wide_to_long(df1, stubnames=["math", "englit"], sep="_", i=["id"], j="year")
+df2 = pd.wide_to_long(
+    df1, stubnames=["math", "englit"], sep="_", i=["id"], j="year"
+).reset_index(drop=False)
 print(df2)
+
+df3 = pd.get_dummies(df2, columns=["teachers"], drop_first=True)
+print(df3)

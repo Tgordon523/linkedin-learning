@@ -3,6 +3,11 @@ LinkedIn weekly series for programming language techniques
 
 
 ----------------------------------------------------------------
+## Week 23
+### [One-Hot Encoding](https://github.com/Tgordon523/linkedin-learning/tree/main/Week23)
+
+
+----------------------------------------------------------------
 ## Week 22
 ### [String Wide to Long](https://github.com/Tgordon523/linkedin-learning/tree/main/Week22)
 

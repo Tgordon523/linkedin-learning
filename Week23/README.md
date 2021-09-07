@@ -1,9 +1,9 @@
 # LinkedIn Learning Week 23
 
-## Features from Text
+## One-Hot Encoding
 
-Prepare and transform columns for a tidy format. 
+Create features from categorical values. 
 
-The function created last week is used to prepare the columns. Pandas <code>wide_to_long</code> function is used to break the information down into a suitable format.
+To prepare a categorical column with minimal features for modeling, one option is to use one-hot encoding. Pandas <code>get_dummies</code> function can be used to specify the columns to one hot encode.
 
-Formatting and cleaning column names is important to standardize a format. This makes it simple to convert the data into a data friendly format for analysis and storage.
+One hot encoding is used to create binary columns to be understood in the modeling process. These binary columns are used to indicate the presence or absense of the variable. In this example, whether the teacher was Doug, Karen, or Dwight is now properly documented. 

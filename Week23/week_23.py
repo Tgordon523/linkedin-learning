@@ -23,14 +23,13 @@ def clean_names(df: pd.DataFrame) -> pd.DataFrame:
 
 
 print(clean_names(df.head()))
-df1 = clean_names(df)
-df1["id"] = df1.index
+df_clean = clean_names(df)
+df_clean["id"] = df_clean.index
 # print(df1)
 
-df2 = pd.wide_to_long(
-    df1, stubnames=["math", "englit"], sep="_", i=["id"], j="year"
+df_clean_long = pd.wide_to_long(
+    df_clean, stubnames=["math", "englit"], sep="_", i=["id"], j="year"
 ).reset_index(drop=False)
-print(df2)
 
-df3 = pd.get_dummies(df2, columns=["teachers"], drop_first=True)
-print(df3)
+df_ohe = pd.get_dummies(df_clean_long, columns=["teachers"], drop_first=True)
+print(df_ohe)

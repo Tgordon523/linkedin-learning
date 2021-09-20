@@ -2,8 +2,8 @@
 
 ## Correlation
 
-Create features from categorical values. 
+Measure linear correlation between variables. 
 
-To prepare a categorical column with minimal features for modeling, one option is to use one-hot encoding. Pandas <code>get_dummies</code> function can be used to specify the columns to one hot encode.
+Pandas <code>corr</code> function can be used to measure the linear correlation on a scale between -1 or 1. This uses Pearson's correlation coefficient by default.
 
-One hot encoding is used to create binary columns to be understood in the modeling process. These binary columns are used to indicate the presence or absence of the variable. In this example, whether the teacher was Doug, Karen, or Dwight is now properly documented. 
+If the value is greater than 0, it is positively correlated. Positively correlated values increase together which is impacted by how highly correlated the variable may be (how close to 1 is the relationship). This applies to negatively correlated values as well (how close to -1 is the relationship). Remember Correlation != causation

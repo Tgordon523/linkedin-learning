@@ -3,9 +3,12 @@ LinkedIn weekly series for programming language techniques
 
 
 ----------------------------------------------------------------
+## Week 24
+### [Correlation](https://github.com/Tgordon523/linkedin-learning/tree/main/Week24)
+
+----------------------------------------------------------------
 ## Week 23
 ### [One-Hot Encoding](https://github.com/Tgordon523/linkedin-learning/tree/main/Week23)
-
 
 ----------------------------------------------------------------
 ## Week 22

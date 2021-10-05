@@ -41,11 +41,11 @@ df_ohe["target"] = (df_ohe["math"] + df_ohe["englit"]) / 2
 
 
 def extract_correlated_features(df: pd.DataFrame) -> pd.Series:
-    """ Function to clean column names and convert it into simple snakecase format. """
+    """ Function to extract strongly correlated features (>= .6). """
     correlated_features = []
     if np.abs(df.target) >= 0.6:
         correlated_features.append(df["target"])
-    return pd.Series(correlated_features)  # [~features.isna()]
+    return pd.Series(correlated_features)
 
 
 df_corr = df_ohe[features + ["target"]].corr()

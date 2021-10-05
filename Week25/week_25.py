@@ -48,11 +48,12 @@ def extract_correlated_features(df: pd.DataFrame) -> pd.Series:
     return pd.Series(correlated_features)  # [~features.isna()]
 
 
-# print(df_ohe[features + ["target"]].corr().multiply(100).round(4))
 df_corr = df_ohe[features + ["target"]].corr()
-# print(df_ohe[features + ["target"]])
-# print(df_corr)
-series_a = df_corr.apply(extract_correlated_features, 1).reset_index()
 
-print(series_a[(~series_a[0].isnull()) & (series_a["index"] != "target")])
-# print(df_corr.apply(extract_correlated_features, 1))
+correlated_features = df_corr.apply(extract_correlated_features, 1).reset_index()
+
+print(
+    correlated_features[
+        (~correlated_features[0].isnull()) & (correlated_features["index"] != "target")
+    ]
+)

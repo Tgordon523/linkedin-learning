@@ -1,6 +1,9 @@
 # linkedin-learning
 LinkedIn weekly series for programming language techniques
 
+----------------------------------------------------------------
+## Week 25
+### [Feature Selection](https://github.com/Tgordon523/linkedin-learning/tree/main/Week25)
 
 ----------------------------------------------------------------
 ## Week 24
